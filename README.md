@@ -1,70 +1,103 @@
-🌸 Habit Tracker
+# 🌸 Habit Tracker
 
-This is a simple and aesthetic monthly habit tracker built with HTML, CSS and JavaScript.
-The goal of this project is to provide a visual and interactive way to track daily habits and stay motivated throughout the month.
+This is a **simple and aesthetic monthly habit tracker** built with **HTML, CSS and JavaScript**.  
+The goal of this project is to provide a **visual and interactive way** to track daily habits and stay motivated throughout the month.  
 
-👉 Try it live here: Habit Tracker on Netlify
-    https://trackerhabits.netlify.app/
+👉 **Live demo**: [Habit Tracker on Netlify](https://trackerhabits.netlify.app/)  
 
-✨ Features
+---
 
-📅 Dynamic calendar generation – days are created automatically based on the current month (including leap years).
+## ✨ Features
 
-✅ Mark habits as completed – click on a day to toggle it between done and not done.
+- 📅 **Dynamic calendar generation** – days are created automatically based on the current month (including leap years).  
+- ✅ **Mark habits as completed** – click on a day to toggle it between *done* and *not done*.  
+- 🔢 **Progress counter** – see at a glance how many days you’ve completed out of the month (`X/31`).  
+- 🌸 **Custom habit name** – set your own habit title with a simple click.  
+- ♻️ **Reset button** – clear the current progress and start fresh at any time.  
+- 🌙 **Dark mode toggle** – switch between light and dark themes, with your preference saved automatically.  
+- 💾 **Local storage support** – progress and habit names are saved in the browser, so they remain after reloading the page.  
 
-🔢 Progress counter – see at a glance how many days you’ve completed out of the month (X/31).
+---
 
-🌸 Custom habit name – set your own habit title with a simple click.
+## 🎨 Design
 
-♻️ Reset button – clear the current progress and start fresh at any time.
+- Soft pastel colors and rounded buttons for a **calm and friendly look**.  
+- Responsive layout using **CSS Grid**.  
+- Accessible controls with **aria-pressed states** for better usability.  
 
-🌙 Dark mode toggle – switch between light and dark themes, with your preference saved automatically.
+---
 
-💾 (Optional if you kept it) Local storage support – progress and habit names are saved in the browser, so they remain after reloading the page.
+## 📸 Screenshots
 
+Here are some previews of the Habit Tracker in action:  
 
-🎨 Design
+### 🌞 Light Mode
+![Light Mode Screenshot](<img width="701" height="794" alt="Capture d'écran 2025-08-31 211451" src="https://github.com/user-attachments/assets/11c716d4-e388-4fda-b785-bcd19df520a6" />
+)
 
-Soft pastel colors and rounded buttons for a calm and friendly look.
+### 🌙 Dark Mode
+![Dark Mode Screenshot](<img width="744" height="805" alt="Capture d'écran 2025-08-31 211523" src="https://github.com/user-attachments/assets/57c16d31-fa31-45cc-9d56-5e8c1b9c6d47" />
+)
 
-Responsive layout using CSS Grid.
+*(Replace the image paths with your own screenshots)*  
 
-Accessible controls with aria-pressed states for better usability.
+---
 
+## 🎥 Demo Video
 
-🙌 Inspiration & Credits
+You can also watch a quick demo of the project in action:  
 
-This project was inspired and guided by a YouTube tutorial that helped me understand how to build a habit tracker using HTML, CSS and JavaScript.
-You can watch the original video here:
+[![Demo Video](./screenshot-light.png)](file:///C:/Users/Sanaa/Downloads/Enregistrement%202025-08-31%20212031.mp4)
 
+---
 
-👉 YouTube Tutorial – 🌸 Learn By Coding a Kawaii Habit Tracker with HTML CSS & Javascript | Beginner Web Dev Tutorial
-by ---Cozy Olive Studios---
-    https://youtu.be/-OcVVgDLI3U?si=qDzZFLLVFwqXOTSJ
+## 🙌 Inspiration & Credits
 
+This project was inspired and guided by a YouTube tutorial that helped me understand how to build a habit tracker using HTML, CSS and JavaScript.  
+You can watch the original video here:  
 
-🚀 Technologies Used
+👉 [🌸 Learn By Coding a Kawaii Habit Tracker with HTML CSS & Javascript | Beginner Web Dev Tutorial](https://youtu.be/-OcVVgDLI3U?si=qDzZFLLVFwqXOTSJ)  
+by **Cozy Olive Studios**  
 
-HTML5 – structure of the calendar and UI.
+---
 
-CSS3 – custom design, responsive grid layout, light/dark themes.
+## 🚀 Technologies Used
 
-JavaScript – dynamic calendar logic, habit toggling, dark mode, and reset functionality.
+- **HTML5** – structure of the calendar and UI  
+- **CSS3** – custom design, responsive grid layout, light/dark themes  
+- **JavaScript** – dynamic calendar logic, habit toggling, dark mode, and reset functionality  
 
-📖 How to use
+---
 
-Open the tracker in your browser.
+## 📖 How to Use
 
-Click on the habit title to define the habit you want to track (e.g., “Drink water”, “Workout”, “Read 30min”).
+1. Open the tracker in your browser.  
+2. Click on the **habit title** to define the habit you want to track (e.g., “Drink water”, “Workout”, “Read 30min”).  
+3. Each day, click on the calendar to mark your habit as completed.  
+4. Check your progress in the **counter** at the top.  
+5. Use the **reset button** to start a new tracking cycle.  
+6. Switch between **light 🌞 / dark 🌙 mode** depending on your preference.  
 
-Each day, click on the calendar to mark your habit as completed.
+---
 
-Check your progress in the counter at the top.
+## 🎯 Goal of the Project
 
-Use the reset button to start a new tracking cycle.
+The project is meant as a **personal productivity tool** and also as a way to **practice and demonstrate front-end development skills** (DOM manipulation, CSS styling, accessibility, and user experience design).  
 
-Switch between light 🌞 / dark 🌙 mode depending on your preference.
+---
 
-🎯 Goal of the project
+## 💻 Local Installation
 
-The project is meant as a personal productivity tool and also as a way to practice and demonstrate front-end development skills (DOM manipulation, CSS styling, accessibility, and user experience design).
+To run this project locally:  
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/habit-tracker.git
+
+# 2. Navigate to the project directory
+cd habit-tracker
+
+# 3. Open the file in your browser
+start index.html    # on Windows
+# or
+open index.html     # on macOS
