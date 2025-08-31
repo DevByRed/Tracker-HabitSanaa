@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Habit Tracker</title>
+    <link rel="icon" type="image/png" href="flower1.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="page-header">
+      <h1 id="title">Mois</h1>
+      <p id="subtitle">Suivi d’habitude mensuel</p>
+    </header>
+
+    <main>
+      <section id="calendarContainer" aria-label="Calendrier d'habitude">
+        <div id="calendar">
+          <header id="calendarHeader">
+            <button
+              id="habitTitle"
+              class="linklike"
+              aria-label="Modifier l’habitude"
+            >
+              Clique pour définir ton habitude
+            </button>
+            <p id="totalDays" aria-live="polite">0/31</p>
+          </header>
+          <div id="weekdays" class="grid">
+            <span>Lu</span><span>Ma</span><span>Me</span><span>Je</span
+            ><span>Ve</span><span>Sa</span><span>Di</span>
+          </div>
+          <div
+            id="calendarGrid"
+            class="grid"
+            role="grid"
+            aria-label="Jours du mois"
+          >
+            <!-- cases générées en JS -->
+          </div>
+        </div>
+      </section>
+
+      <button id="resetButton" class="btn">Réinitialiser</button>
+      <button id="themeToggle" class="btn" type="button" aria-pressed="false">
+        🌙 Mode sombre
+      </button>
+    </main>
+  </body>
+</html>
