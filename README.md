@@ -32,10 +32,10 @@ The goal of this project is to provide a **visual and interactive way** to track
 Here are some previews of the Habit Tracker in action:  
 
 ### 🌞 Light Mode
-![Light Mode Screenshot](<img width="701" height="794" alt="Capture d'écran 2025-08-31 211451" src="https://github.com/user-attachments/assets/11c716d4-e388-4fda-b785-bcd19df520a6" />)
+<img alt="Light Mode" src="https://github.com/user-attachments/assets/11c716d4-e388-4fda-b785-bcd19df520a6" width="500">
 
 ### 🌙 Dark Mode
-![Dark Mode Screenshot](<img width="744" height="805" alt="Capture d'écran 2025-08-31 211523" src="https://github.com/user-attachments/assets/57c16d31-fa31-45cc-9d56-5e8c1b9c6d47" />) 
+<img alt="Dark Mode"  src="https://github.com/user-attachments/assets/57c16d31-fa31-45cc-9d56-5e8c1b9c6d47" width="500">
 
 ---
 
